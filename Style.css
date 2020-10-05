@@ -1,0 +1,26 @@
+.Grid { 
+    display: grid; 
+
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 50px 50px 50px 50px;
+} 
+
+#Display { 
+
+    border-style: solid; 
+    border-width: 1px; 
+    border-radius: 2px;
+    border-color: black; 
+    width: 276px; 
+    padding-left: 4px;
+    
+
+} 
+
+.Container { 
+
+    border-style: solid; 
+    border-width: 2px; 
+    border-radius: 6px;
+    width: 280px;
+}
