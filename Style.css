@@ -18,9 +18,15 @@
 } 
 
 .Container { 
-
+    
+    margin-top: 100px;
     border-style: solid; 
     border-width: 2px; 
     border-radius: 6px;
     width: 280px;
-}
+} 
+
+#Display { 
+    height: 50px;
+} 
+
