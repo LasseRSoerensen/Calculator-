@@ -1,8 +1,9 @@
 .Grid { 
-    display: grid; 
 
+    display: grid; 
     grid-template-columns: 70px 70px 70px 70px;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px; 
+
 } 
 
 #Display { 
@@ -11,22 +12,50 @@
     border-width: 1px; 
     border-radius: 2px;
     border-color: black; 
-    width: 276px; 
+    height: 50px; 
+    width: auto;
+    background-color: white;  
     padding-left: 4px;
     
-
 } 
 
 .Container { 
     
-    margin-top: 100px;
     border-style: solid; 
     border-width: 2px; 
     border-radius: 6px;
-    width: 280px;
+    width: 280px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 } 
 
-#Display { 
-    height: 50px;
+
+
+body { 
+  
+    position: relative; 
+
 } 
 
+#Tag { 
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+} 
+
+html { 
+
+    background: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden; 
+
+}
